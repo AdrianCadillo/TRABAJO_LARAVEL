@@ -59,4 +59,4 @@ Route::get("/usuario/list",function(){
 # mostrar los curso
 
 
-Route::get("/courses",[CursoController::class,'index'])->name("user.show");
+Route::get("/courses",[CursoController::class,'index'])->name("courses.index");
